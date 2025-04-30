@@ -56,7 +56,7 @@ async def handle_input(update: Update, context: ContextTypes.DEFAULT_TYPE):
             return
         context.chat_data.clear()
 
-BOT_TOKEN = "PASTE_YOUR_BOT_TOKEN_HERE"
+BOT_TOKEN = "8021468955:AAFgebXdtIBhUirF72me5y2w3dvQVolIZ4U"
 
 app = ApplicationBuilder().token(BOT_TOKEN).build()
 app.add_handler(CommandHandler("start", start))
